@@ -1,0 +1,6 @@
+# requirements.txt
+# Dependências de produção (listadas também no pyproject.toml)
+office365-sharepoint-python-client
+
+# Dependências de desenvolvimento
+python-dotenv  # Para testar localmente

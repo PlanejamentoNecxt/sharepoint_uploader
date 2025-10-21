@@ -1,0 +1,27 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sp_uploader"
+version = "0.1.0"
+authors = [
+  { name="Hugo Barbosa", email="hpbarbosa4@stefanini.com" },
+]
+description = "Um pacote simples para automatizar uploads de arquivos no SharePoint."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+# Dependências que sua biblioteca precisa para FUNCIONAR
+dependencies = [
+    "office365-sharepoint-python-client"
+]
+
+[project.urls]
+Homepage = "https://github.com/seu-usuario/meu-uploader-sharepoint"
+Issues = "https://github.com/seu-usuario/meu-uploader-sharepoint/issues"
