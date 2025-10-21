@@ -19,7 +19,7 @@ classifiers = [
 ]
 # Dependências que sua biblioteca precisa para FUNCIONAR
 dependencies = [
-    "office365-sharepoint-python-client"
+    "Office365-REST-Python-Client"
 ]
 
 [project.urls]
