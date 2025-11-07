@@ -5,7 +5,7 @@ Um pacote simples para automatizar uploads de arquivos no SharePoint.
 ## Instalação
 
 ```bash
-pip install git+[https://github.com/PlanejamentoNecxt/sharepoint_uploader](https://github.com/PlanejamentoNecxt/sharepoint_uploader)
+pip install git+https://github.com/PlanejamentoNecxt/sharepoint_uploader
 ```
 
 ## Exemplo de Uso
